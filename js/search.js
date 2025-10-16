@@ -1,3 +1,9 @@
+let loading = document.getElementById('loading')
+
+window.addEventListener('load', function(){
+    loading.classList.add('hidden')
+})
+
 let searchCards = document.getElementById('search-cards')
 let isExistpro = false
 
@@ -28,5 +34,6 @@ searchInput.addEventListener('input', function (e) {
 
     
 })
+
 
 
